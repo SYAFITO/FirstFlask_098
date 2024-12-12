@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Sederhana</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Input</h1>
+        <form method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
